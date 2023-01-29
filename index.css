@@ -1,193 +1,85 @@
-.nav_bar{
-    margin: auto; 
-    margin-left: 5%;
-    display: flex;
-    align-items: center;
-    text-align: center;
-}
-.nav_buttons{
-    margin-top: 0.3%;
-    margin-left: 55%;
+body{
+    padding: 0;
+    background-color: #F1F1F1;
 }
 
-.home_but{
-    background-color: transparent;
+.title{
+    color: black;
+    padding-bottom: 5%;
+}
+.link{
+    text-decoration: none;
+}
+
+.line{
+    background-color: black;
+    opacity: 20%;
+    margin-top:20px; line-height: 10%;
+    width:92%; height: 1%;
+    color: transparent;
+}
+
+.but{
+    height: 40px;
+    width: 120px;
     border: none;
-    margin-top: 10px;
-    margin-left: 12px;
-    font-weight: 500;
-   
+    border-radius: 30px;
+    margin-top: 48px;
+    margin-left: 0px;
+    background-color: #d3d3d3;
     
-}
-.about_but{
-    background-color: transparent;
-    border: none;
-    margin-top: 10px;
-    margin-left: 12px;
-    font-weight: 500;
-    
-}
-.how_but{
-    background-color: transparent;
-    border: none;
-    margin-top: 10px;
-    margin-left: 12px;
-    font-weight: 500;
-    color: #081E34;
-   
-}
-.start_but{
-    background-color: #081E34 12%;
-    border-radius: 100px;
-    width: 102px;
-    height: 38px;
-    margin-top: 10px;
-    margin-left: 12px;
-    font-weight: 500;
     
 }
 
-.second{
-    display: flex;
+.cubes{
+    margin-left: 170px;
 }
-
-.hiw{
-    background-color: #712FFF;
-    border-radius: 100px;
-    margin-left: 80px; 
-    margin-top: 40px;
-    font-size: 14px;
-    color: white;
-    height: 50px;
-    width: 150px;
-    border: 0cm;
-}
-.big{
-    width: 587px;
-    height: 458px;
-    margin-top: 150px; 
-    margin-left: 160px; 
-    border-radius: 50px;
-
-}
-
-.images{
-    margin-top: 86px;
-    margin-left: 80px;
-    display: flex;
-}
-.one{
-    margin-left: 30px;
-}
-.two{
-    margin-left: 280px;
-}
-.three{
-    margin-left: 330px;
-}
-.text-1{
-    display: flex;
-}
-.text-2{
-    display: flex;
-    font-family: Inter;
-    font-weight: 500;
-    font-size: 10px;
-}
-.text-box{
-    width: 619px;
-    height: 50px;
-    margin-left: 80px;
-    font-family: Inter;
-    font-weight: 500;
-    font-size: 16px;
-    border-radius: 12px;
-    border: 0cm;
-    
-}
-.tbox{
-    color: #F1F1F1;
-    position: relative;
-    height: 50px;
-    
-}
-.search{
-    margin-left: 80px;
-    position: absolute;
-    margin-top: 33px;
-    margin-left: 100px;
+.cube1{
+    margin-top: 55px;
+    margin-left: 20px;
+    background-color: #E1E0E6;
     width: 24px;
     height: 24px;
+    color: transparent;
 }
 
-.fjBut{
-    margin-left: 40px;
-    background-color: #712FFF;
-    width: 106px;
-    height: 50px;
-    border-radius: 100px;
-    border: none;
-    color: white;
-    font-family: Inter;
-    font-weight: 500;
-}
-
-.bigPic{
-    display: flex;
-}
-.bigText{
-    margin-left: 128px;
-    margin-top: 300px;
-    
-}
-.upl{
-    width: 114px;
-    height: 50px;
-    background-color: #712FFF;
-    border-radius: 100px;
-    color: white;
-    font-family: Inter;
-    font-weight: 500;
+.bot_w{
     font-size: 14px;
-    border: none;
-    margin-top: 100px;
-    margin-left: 730px;
-    
-    
+    opacity: 50%;
+    margin-left: 50%;
 }
-.list{
-    list-style: none;
-    margin-top: 160px;
-    margin-left: 40px;
-    display: flex;
+.bot_w_l{
+    font-size: 14px;
+    margin-left: 73%;
+    margin-top: 40px;
 }
 
-@media screen and (max-width: 800px){
-   .home_but{
-    display: none;
-   }
-   .about_but{
-    display: none;
-   }
-   .how_but{
-    display: none;
-   }
-   .jumys{
-    padding-top: 100px;
-    font-size: 100px;
-   }
-   .lupa{
-    width: 80px;
-    height: 80px;
-   }
-   .start_but{
-    width: 250px;
-    height: 100px;
-    margin-right: 100cm;
-   }
-   .big{
-    margin-top: 82px;
-    width: 373px;
-    height: 249px;
-   }
+.first_div{
+    margin-left: 10%;
+}
+
+.first_p{
+    margin-top: 16%;
+    margin-left: 20px;
+    font-size: 18px;
+}
+
+.image{
+    width: 980px;
+    height: 580px;
+    mix-blend-mode: multiply;
+}
+
+.bot_w_2{
+    font-size: 14px;
+    opacity: 50%;
+    margin-left: 39%;
+    margin-top: 20%;
+
+}
+.bot_w_l2{
+    font-size: 14px;
+    margin-left: 65%;
+    margin-top: 40px;
+    color: black;
 }
